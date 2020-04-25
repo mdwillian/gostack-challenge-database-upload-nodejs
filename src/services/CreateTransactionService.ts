@@ -27,8 +27,6 @@ class CreateTransactionService {
       title: category,
     });
 
-    const category_id = '';
-
     if (!checkCategoryExists) {
       checkCategoryExists = categoriesRepository.create({
         title: category,
